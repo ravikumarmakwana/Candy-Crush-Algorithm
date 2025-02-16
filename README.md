@@ -3,7 +3,7 @@
 ## Overview
 This repository contains an implementation of a simple **Candy Crush** algorithm in C#. The algorithm repeatedly finds and crushes candies, then shifts the remaining candies down until no more candies can be crushed.
 
-## Rules:
+## Rules
 The given board represents the state of the game following the player's move. Now, you need to restore the board to a stable state by crushing candies according to the following rules:
 1. If three or more candies of the same type are adjacent vertically or horizontally, crush them all at the same time - these positions become empty.
 2. After crushing all candies simultaneously, if an empty space on the board has candies on top of itself, then these candies will drop until they hit a candy or bottom at the same time. No new candies will drop outside the top boundary.
